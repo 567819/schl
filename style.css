@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    align-items:  center;
+    
+}
+header ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 13px;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+}
+header ul li{
+    padding: 10px;
+}
+header input{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(50, 104, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+     margin: 100px 0;
+}
+.but1,.but2{
+    padding: 13px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+}
+main input{
+    
+    height: 42px;
+    width: 430px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 50px;
+    outline: none;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+main input:hover{
+  box-shadow: -2px -1px 20px black;
+}
+
+.metam{
+    position: relative;
+    left: 235px;
+    bottom: 35px;
+}
+.metai{
+    position: relative;
+    right: 235px;
+    top: 35px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    color: gray;
+}
+.meta2{
+     border-bottom: 2px solid rgb(207, 207, 207);
+}
+.meta2 ol{
+    padding: 15px;
+    list-style-type: none;
+   }
+.meta2 ol li a,.meta3 ol li a,.meta3 ul li a{
+  text-decoration: none;
+  color: gray;
+}
+.meta3 ol{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.meta3 ul{
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.meta3 ol li{
+    padding: 15px;
+}
+.meta3 ul li{
+    padding-left: 15px;
+}

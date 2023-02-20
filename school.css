@@ -1,0 +1,21 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+h4{
+    color: ghostwhite;
+}
+a{
+    color: ghostwhite;
+}
+.nav{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: darkblue;
+    padding: 10px 20px;
+    
+}
